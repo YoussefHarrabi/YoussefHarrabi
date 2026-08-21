@@ -1,0 +1,38 @@
+<!DOCTYPE html><html><head><meta charset="utf-8">
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{width:1280px;height:320px;overflow:hidden;font-family:'JetBrains Mono',Consolas,monospace}
+.wrap{position:relative;width:1280px;height:320px;background:#0b0913;overflow:hidden;display:flex;align-items:center;justify-content:center}
+.glow{position:absolute;left:50%;top:120%;width:1100px;height:600px;transform:translateX(-50%);
+  background:radial-gradient(ellipse at 50% 50%, rgba(124,58,237,.55) 0%, rgba(76,29,149,.22) 42%, rgba(11,9,19,0) 70%)}
+.term{position:relative;width:1010px;background:#12101d;border:1px solid #2b2740;border-radius:10px;
+  box-shadow:0 24px 70px rgba(0,0,0,.6)}
+.bar{height:38px;border-bottom:1px solid #2b2740;display:flex;align-items:center;padding:0 15px;gap:8px}
+.dot{width:11px;height:11px;border-radius:50%}
+.d1{background:#ff5f57}.d2{background:#febc2e}.d3{background:#28c840}
+.path{margin-left:14px;font-size:12.5px;color:#6f6a8a;letter-spacing:.04em}
+.body{padding:19px 26px 24px}
+.line{font-size:15px;line-height:1.85;color:#cdc7e6;white-space:nowrap}
+.p{color:#a78bfa;font-weight:700}
+.c{color:#fff;font-weight:700}
+.k{color:#7dd3a0}
+.dim{color:#6f6a8a}
+h1{font-size:31px;font-weight:700;color:#fff;letter-spacing:.03em;margin:4px 0 2px}
+.cur{display:inline-block;width:9px;height:17px;background:#a78bfa;vertical-align:-3px;margin-left:5px}
+</style></head><body>
+<div class="wrap">
+  <div class="glow"></div>
+  <div class="term">
+    <div class="bar"><span class="dot d1"></span><span class="dot d2"></span><span class="dot d3"></span>
+      <span class="path">~/youssef-harrabi</span></div>
+    <div class="body">
+      <div class="line"><span class="p">&gt;</span> <span class="c">whoami</span></div>
+      <h1>Youssef Harrabi</h1>
+      <div class="line dim">Software Engineer &nbsp;/&nbsp; Tunis, Tunisia &nbsp;/&nbsp; ESPRIT 2026</div>
+      <div class="line" style="margin-top:11px"><span class="p">&gt;</span> <span class="c">cat focus.txt</span></div>
+      <div class="line"><span class="k">LLM systems</span> <span class="dim">·</span> <span class="k">evaluation harnesses</span> <span class="dim">·</span> <span class="k">agent security</span> <span class="dim">·</span> <span class="k">full stack</span></div>
+      <div class="line" style="margin-top:11px"><span class="p">&gt;</span><span class="cur"></span></div>
+    </div>
+  </div>
+</div></body></html>
