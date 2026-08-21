@@ -1,3 +1,4 @@
+<img src="banner.png" alt="Youssef Harrabi, Software Engineer" width="100%">
 
 # Hi, I'm Youssef 👋
 
@@ -20,12 +21,6 @@ An LLM agent with real tools over a real multi tenant database. You are signed i
 - **Six defence layers**, and a panel that switches each one off so you can watch what changes when it is removed
 - **Thirty three cases plus two exemplars, nine categories, on every commit.** Most skip the model entirely and hand the defences what a fully captured model would emit, so a pass means the layer held
 - **A section called "What still gets through"**, and it is not short. The injection classifier has a false negative that took one attempt to find. Three defects were found by running the thing rather than testing it, and all three were in the code that checks the layers, not the layers
-
-## 📈 Sniper Entries
-
-**[Live](https://sniper-entries.netlify.app)**
-
-An assistant that runs unattended on scheduled fifteen minute cycles, pairing technical strategies I traded myself for two years with a model that confirms or rejects each setup. It **holds for one human confirmation before it executes**, because a non deterministic model in front of a money moving action needs a gate and not a promise.
 
 ## 🛠️ Tech I work with
 
