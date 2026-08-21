@@ -2,7 +2,7 @@
 
 # Hi, I'm Youssef 👋
 
-I'm a **software engineer** based in Tunis, Tunisia, with a Software Engineering degree from **ESPRIT** (2026). I build full stack products, and I work on the part of **LLM systems** that decides whether a feature is allowed near real users: **evaluation harnesses, tenant isolation, and prompt injection defence**. Most of what I know about how models fail I learned by publishing something and letting strangers attack it.
+I'm a **software engineer** based in Tunis, Tunisia. I build full stack products, and I work on the part of **LLM systems** that decides whether a feature is allowed near real users: **evaluation harnesses, tenant isolation, and prompt injection defence**. Most of what I know about how models fail I learned by publishing something and letting strangers attack it.
 
 ## 🔭 What I'm working on
 
